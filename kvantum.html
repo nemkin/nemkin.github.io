@@ -1,11 +1,78 @@
 <html>
 <head>
-  <title>11\. Kvantumkommunikációs közösségi könyv: Q-company</title>
+  <title>Kvantumkommunikációs közösségi könyv: Az IBM Quantum története a kezdetektől a napjainkig</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-Mutasson be kvantuminformatikával foglalkozó cégeket egy kvantumkommunikációs közösségi könyv számára.
 
-(Ez a könyv majd a weben lesz elérhető, így szöveg mellett képeket, videókat és linkeket is nyugodtan tartalmazhat az anyag. Készülhet Wordben vagy HTML-ben is.)
+<header><h1>Az IBM Quantum története a kezdetektől a napjainkig</h1></header>
+
+<h2>Alapítás</h2>
+
+<p>
+Amikor kvantuminformatikával foglalkozó cégekről beszélünk, talán az első név, amely mindenki számára beugrik, az az IBM. A New York-i vállalat 1911-ben jött létre 4 cég összeolvadásából, melyek mind 1-1 technológiai szabadalom köré épültek: Julius E. Pitrap számító mérlege, Alexander Dey tárcsás időrögzítője, Herman Hollerith elektromos tabulátora és Willard Bundy blokkolóórája. A vállalat Thomas J. Watson elnöksége alatt hatalmas léptékben növekedett, különböző üzleti és ipari berendezések forgalmazásával és kölcsönzésével több millió dolláros bevételre tettek szert és terjeszkedtek Európa, Dél-Amerika, Ázsia és Ausztrália területén is. Watson 1924-ben keresztelte a céget az International Business Machines, azaz az IBM névre.
+</p>
+
+<p>
+A vállalat jelentős szerepet játszott a 20. századi történelemben. Megvalósították az Egyesült Államok foglalkoztatási adatainak elektronikus kezelését, részt vettek a második világháború fegyvergyártásában, kifejlesztették az első „öntanuló” programot, mely dámajátékot játszott, megalkották a FORTRAN programozási nyelvet, részt vettek több NASA vezette űrprogramban, köztük az 1969-es holdraszállásban is, 1981-ben pedig bemutatták az első személyi számítógépet, ekkoriban szinte egyeduralkodóvá válva a számítógépes iparág piacán.
+</p>
+
+<cite>
+    <a href="https://www.ibm.com/ibm/history/history/history_intro.html">
+        Chronological History of IBM
+    </a>
+</cite>
+
+<h2>Kezdetek</h2>
+
+<p>
+Peter Shor (AT&T Bell Labs) 1994-es cikkében leírta a kvantum alapú prímfaktorizációs algoritmust, mely hatalmas érdeklődést váltott ki, hiszen ennek segítségével az akkoriban és ma is használt klasszikus titkosítási algoritmusok feltörhetővé válnának, ez pedig komoly fenyegetést jelent mind harcászati mind ipari szempontból.
+</p>
+
+<cite>
+    <a href="https://ieeexplore.ieee.org/abstract/document/365700">
+        Shor, P.W., 1994, November. Algorithms for quantum computation: discrete logarithms and factoring. In <i>Proceedings 35th annual symposium on foundations of computer science</i> (pp. 124-134). Ieee.
+    </a>
+</cite>
+
+<p>
+2 évvel később, 1996-ban jelent meg az IBM első jelentős kvantuminformatikával kapcsolatos cikke, David P. DiVincenzo elméleti fizikus tollából Topics in Quantum Computers címen, melyben egy kvantumszámítógép megalkotásához szükséges minimális feltételeket és a hibajavítás lehetséges módszertanát tárgyalja. Ebben a cikkben külön kiemeli Shor prímfaktorizációs algoritmusát, mint a téma körüli érdeklődés fellángolásának indító lökését.
+</p>
+
+<cite>
+    <a href="https://link.springer.com/chapter/10.1007/978-94-015-8839-3_18">
+        DiVincenzo, D.P., 1997. Topics in quantum computers. In <i>Mesoscopic electron transport</i> (pp. 657-677). Springer, Dordrecht.
+    </a>
+</cite>
+
+<p>
+Az IBM Almaden Research Centerében megkezdődnek a kvantuminformatikai kutatások…
+</p>
+
+<h2>Nukleáris mágneses rezonancia alapú kvantumszámítógép</h2>
+
+<p>
+1998-ban 2-3 qubites NMR, azaz nukleáris mágneses rezonancia alapú „kvantumszámítógépekkel” kísérleteznek. Ennek technológiának a lényege, hogy a mágneses mezőbe helyezett molekulák atomjainak nukleuszaiban lévő, spinnel rendelkező részecskék kis mágnesrudakként viselkedve a mágneses mezővel párhuzamos irányba állnak be, vagy a mező polaritásával egyező (stabil egyensúlyi), vagy ellentétes (instabil egyensúlyi) irányban. Az egyező irány alacsonyabb, az ellentétes magasabb energiaállapotot képvisel, ezeket lehet az |1> és a |0> bázisvektoroknak megfeleltetni. Egy második, az első mező és a résztvevő molekulák tulajdonságaitól függő frekvencián oszcilláló elektromágneses teret megfelelő ideig bekapcsolva elérhető, hogy a részecskék 180 fokot fordulva az alacsonyabb energiájú stabil egyensúlyi állapotból a magasabb energiájú instabil energiaállapotba váltsanak át. Amennyiben pontosan a szükséges időtartam feléig kapcsoljuk be a mezőt, úgy a részecskék energiaállapota szuperpozícióba helyezhető: 1/2 - 1/2 valószínűséggel lesz egy adott részecske a |0>, illetve az |1> vektorhoz tartozó állapotban.
+</p>
+
+<p>
+Az NMR technológiát használva több kutatócsoport is demonstrál gyakorlati kvantumalgoritmus implementációt, köztük I. Chuang (IBM), N. Gershenfeld (Berkeley), M. Kubinec a Grover algoritmust kloroform molekulákon.
+</p>
+
+<cite>
+    <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.3408">
+        Chuang, I.L., Gershenfeld, N. and Kubinec, M., 1998. Experimental implementation of fast quantum searching. <i>Physical review letters</i>, 80(15), p.3408.
+    </a>
+</cite>
+
+<h2>Szuperkonduktivitás</h2>
+
+<cite>
+    <a href="https://snf.ieeecsc.org/sites/ieeecsc.org/files/RN28e-1.pdf">
+        Gallagher, W.J., Harris, E.P. and Ketchen, M.B., 2012, July. Superconductivity at IBM - A centennial review: Part I - Superconducting computer and device applications. In <i>Proc. IEEE/CSC ESAS Eur. Supercond. News Forum</i> (No. 21, pp. 1-34).
+    </a>
+</cite>
+
 </body>
 </html>
