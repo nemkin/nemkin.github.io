@@ -1,11 +1,19 @@
 body {
-    max-width: 500px;
-    margin: auto;
-    text-align: justify;
-    text-justify: inter-word;
+  max-width: 500px;
+  margin: auto;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 header {
-    margin-top: 30px;
-    text-align: center;
+  margin-top: 30px;
+  text-align: center;
+}
+
+cite {
+  font-size: 11px;
+}
+
+a {
+  text-decoration: none;
 }
