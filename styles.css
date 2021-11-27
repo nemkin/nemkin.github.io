@@ -39,7 +39,7 @@ figcaption {
   text-align: center;
 }
 
-li {
+ul li {
   list-style-type: circle;
   margin-bottom: 10px;
 }
