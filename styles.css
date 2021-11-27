@@ -17,3 +17,17 @@ cite {
 a {
   text-decoration: none;
 }
+
+figure {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  text-align: center;
+}
