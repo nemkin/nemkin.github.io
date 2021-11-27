@@ -399,6 +399,7 @@
     <p>
     Az első megvalósítási ötlet a qubitek elrendezését egy 2 dimenziós síkon képzelte el, melynek sematikus ábrája lent látható. Egy logikai qubit (színes négyzetek) 4 fizikai qubitból áll (pöttyök), a fizikai qubiteket pedig rezonátorok (fekete vonalak) kötik össze. Egy qubitet egy Josephson-csomópont valósít meg. Az elrendezés lényege, hogy a Josephson-csomópontok kvantum energiaszintjei meghatározott harmonikus frekvenciákon oszcillálhatnak, egymással pedig a rezonátorokon keresztül léphetnek kapcsolatba.
     </p>
+
     <figure>
       <img
         src="https://media.springernature.com/full/springer-static/image/art%3A10.1038%2Fncomms5015/MediaObjects/41467_2014_Article_BFncomms5015_Fig6_HTML.jpg?as=webp"
@@ -463,8 +464,38 @@
     </p>
     
     <p>
-    Azóta egy több alkotóelemből álló felhőszolgáltatássá fejlődött ki, melynek részei a <a href="https://quantum-computing.ibm.com/composer">Quantum Composer</a>, az <a href="https://quantum-computing.ibm.com/lab/docs/iql/">IBM Quantum Lab</a>, a <a href="https://qiskit.org/">Qiskit</a> és az <a href="">OpenQASM</a> nyelv.
+    Azóta egy több alkotóelemből álló felhőszolgáltatássá fejlődött ki, melynek részei a <a href="https://quantum-computing.ibm.com/composer">Quantum Composer</a>, a <a href="https://qiskit.org/">Qiskit</a> és az <a href="">OpenQASM</a> nyelv, továbbá az <a href="https://quantum-computing.ibm.com/lab/docs/iql/">IBM Quantum Lab</a>.
     </p>
+
+    <h3>Quantum Composer</h3>
+
+    A <a href="https://quantum-computing.ibm.com/composer">Quantum Composer</a> egy grafikus kvantumprogramozásra használható eszköz, melyben különböző egyszerű kvantumos áramköröket állíthatunk össze.
+
+    <figure>
+      <img
+        src="https://iqx-docs.quantum-computing.ibm.com/_images/giftour.gif"
+      />
+      <figcaption>
+        Quantum Composer
+        <br />
+        (Forrás:
+        <a
+          href="https://quantum-computing.ibm.com/composer/docs/iqx/"
+          >quantum-computing.ibm.com</a
+        >)
+      </figcaption>
+    </figure>
+
+    <p>
+    Az egyes kapuk hatását megfigyelhetjük a mérési valószínűségek alakulásából, illetve a Bloch-gömbön látható eredményből is. Az elkészült áramkört ezután lefuttathatjuk akár szimulátorokon, akár valódi kvantum hardveren, továbbá OpenQASM és Python (Qiskit) nyelvű kódot is generálhatunk belőle.
+    </p>
+
+    <p>
+    Az első lépések megtételéhez érdemes az IBM weboldalán elérhető <a href="https://quantum-computing.ibm.com/composer/docs/iqx/">dokumentációval</a> kezdeni, például <a href="https://quantum-computing.ibm.com/composer/docs/iqx/first-circuit">ebben a tutorialban</a> egy kvantum összefonódás összeállítását lehet kipróbálni.
+    </p>
+
+    <h3>Qiskit</h3>
+    A <a href="https://qiskit.org/">Qiskit</a> egy nyílt forráskódú kvantum SDK, mely a Python 3 nyelvet támogatja és mely segítségével Python nyelven hozhatunk létre kvantumalgoritmusokat megvalósító áramköröket.
 
     <h3>OpenQASM</h3>
     <p>
