@@ -2,6 +2,7 @@ body {
   max-width: 500px;
   margin: auto;
   text-align: justify;
+  text-align-last: left;
   text-justify: inter-word;
 }
 
@@ -37,14 +38,10 @@ figcaption {
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+  text-align-last: center;
 }
 
 ul li {
   list-style-type: circle;
   margin-bottom: 10px;
-}
-
-iframe {
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
