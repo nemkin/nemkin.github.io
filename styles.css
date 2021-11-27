@@ -9,6 +9,7 @@ body {
 header {
   margin-top: 30px;
   text-align: center;
+  text-align-last: center;
 }
 
 cite {
