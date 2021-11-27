@@ -52,7 +52,7 @@
     <h2>Kezdetek</h2>
 
     <p>
-      Peter Shor (AT&T Bell Labs) 1994-es cikkében leírta a kvantum alapú
+      Shor (AT&T Bell Labs) 1994-es cikkében leírta a kvantum alapú
       prímfaktorizációs algoritmust, mely hatalmas érdeklődést váltott ki,
       hiszen ennek segítségével az akkoriban és ma is használt klasszikus
       titkosítási algoritmusok feltörhetővé válnának, ez pedig komoly
@@ -99,12 +99,7 @@
       </ul>
     </cite>
 
-    <p>
-      Az IBM Almaden Research Centerében megkezdődnek a kvantuminformatikai
-      kutatások…
-    </p>
-
-    <h2>Nukleáris mágneses rezonancia alapú kvantumszámítógép</h2>
+    <h2>Az első, nukleáris mágneses rezonancián alapuló kvantumszámítógép</h2>
 
     <p>
       1998-ban 2-3 qubites NMR, azaz nukleáris mágneses rezonancia alapú
@@ -121,7 +116,7 @@
       stabil egyensúlyi állapotból a magasabb energiájú instabil
       energiaállapotba váltsanak át. Amennyiben pontosan a szükséges időtartam
       feléig kapcsoljuk be a mezőt, úgy a részecskék energiaállapota
-      szuperpozícióba helyezhető: 1/2 - 1/2 valószínűséggel lesz egy adott
+      szuperpozícióba helyezhető: 1/2 és 1/2 valószínűséggel lesz egy adott
       részecske a |0>, illetve az |1> vektorhoz tartozó állapotban.
     </p>
 
@@ -131,6 +126,65 @@
           <a href="http://cba.mit.edu/docs/papers/98.06.sciqc.pdf">
             Gershenfeld, N. and Chuang, I.L., 1998. Quantum computing with
             molecules. <i>Scientific American</i>, 278(6), pp.66-71.
+          </a>
+        </li>
+      </ul>
+    </cite>
+
+    <p>
+      Az NMR technológiát használva 1998-ban több kutatócsoportnak is sikerült a
+      gyakorlatban megvalósítania kvantumalgoritmus implementációt, köztük Chuang (IBM), Gershenfeld (MIT) és Kubinec (Berkeley) csapatának a Grover algoritmust kloroform molekulákat felhasználva. Ez az első alkalom, hogy egy kvantumszámítást az elejétől
+      a végéig sikerült véghezvinni: a kezdeti állapot betöltése, egy olyan számítás véghezvitele, mely a klasszikus alternatívánál kevesebb lépést használ, végül pedig az
+      eredmény kiolvasása.
+    </p>
+
+    <cite>
+      <ul>
+        <li>
+          <a
+            href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.3408"
+          >
+            Chuang, I.L., Gershenfeld, N. and Kubinec, M., 1998. Experimental
+            implementation of fast quantum searching.
+            <i>Physical review letters</i>, 80(15), p.3408.
+          </a>
+        </li>
+      </ul>
+    </cite>
+
+    <p>
+      Ugyanezen technológiát felhasználva 2001-ben demonstrálta először az IBM
+      Shor prímfaktorizációs algoritmusának gyakorlati megvalósítását. A kísérlet
+      során a 15-ös számot sikerült kvantumszámítással prímtényezőkre bontani, mely 
+      a technológia kezdetlegességét figyelembe véve akkoriban komoly eredménynek számított. Ehhez 10^18 darab egyforma, az IBM kémikusai által kifejezetten erre a célra tervezett  5 fluor és 2 szénatomból felépülő molekulát használtak fel, mely egy 7 qubites
+      kvantumszámítógépnek felelt meg.
+    </p>
+
+    <p>
+      Ahhoz, hogy egy nagyobb szám prímtényezős felbontását a Shor algoritmus segítségével kiszámítsuk, 7-nél több qubitre, azaz nagyobb molekulára van szükség. Sajnos, az NMR technológiának egy komoly hátránya, hogy a működéséhez a qubiteknek egyetlen molekulán belül kell elhelyezkedniük, mely sajnos akkoriban nem tűnt megvalósíthatónak. Szerencsére már ekkoriban is voltak ötletek alternatív technológiákra, melyekkel kvantumszámítógépet lehet létrehozni: elektronspin orientáción, szennyezett félvezetőn, illetve szupravezetőkön alapuló technológiák, melyek ekkoriban még kiforratlanok voltak, elterjedésükre még várni kellett.
+    </p>
+
+    <cite>
+      <ul>
+        <li>
+          <a href="https://www.nature.com/articles/414883a">
+            Vandersypen, L.M., Steffen, M., Breyta, G., Yannoni, C.S., Sherwood,
+            M.H. and Chuang, I.L., 2001. Experimental realization of Shor's
+            quantum factoring algorithm using nuclear magnetic resonance.
+            <i>Nature</i>, 414(6866), pp.883-887.
+          </a>
+        </li>
+        <li>
+          <a href="https://www.sciencedaily.com/releases/2001/12/011220081620.htm">
+            IBM Research Division., 2001. IBM's Test-Tube Quantum Computer Makes
+            History; First Demonstration Of Shor's Historic Factoring Algorithm.
+            <i>ScienceDaily.</i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.npl.washington.edu/av/altvw112.html">
+            Cramer, J.G., Decryption and Quantum Computing: Seven Qubits and
+            Counting.
           </a>
         </li>
       </ul>
@@ -152,66 +206,6 @@
         >
       </li>
     </ul>
-
-    <h3>Grover algoritmus megvalósítása</h3>
-
-    <p>
-      Az NMR technológiát használva több kutatócsoport is demonstrál gyakorlati
-      kvantumalgoritmus implementációt, köztük I. Chuang (IBM), N. Gershenfeld
-      (Berkeley), M. Kubinec a Grover algoritmust kloroform molekulákon.
-    </p>
-
-    <cite>
-      <ul>
-        <li>
-          <a
-            href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.80.3408"
-          >
-            Chuang, I.L., Gershenfeld, N. and Kubinec, M., 1998. Experimental
-            implementation of fast quantum searching.
-            <i>Physical review letters</i>, 80(15), p.3408.
-          </a>
-        </li>
-      </ul>
-    </cite>
-
-    <h3>Shor algoritmus megvalósítása</h3>
-
-    <p>
-      2001-ben az IBM demonstrálja Shor prímfaktorizációs algoritmusát (a 15-ös
-      számot sikerül prímtényezőkre bontani :) 10^18 darab molekulát
-      felhasználva egy 7 qubites kvantumszámítógépen).
-    </p>
-
-    <p>
-    Nagyobb szám figyelembevételéhez 7 qubitnél több rendszerre lenne szükség. A dolgok akkor válnának érdekessé, ha körülbelül 24 qubit állna rendelkezésre az ilyen számításokhoz. Körülbelül 36 qubittel egy kvantumszámítógépnek gyorsan végre kell hajtania olyan számításokat, amelyekhez egy hagyományos számítógépen az univerzum korával megegyező időre lenne szükség. Sajnos egy ilyen qubit-nagyítás nehéz, mivel az IBM-eszköz az NMR kvantumszámítástechnika kemény technológiai korlátja közelében van. Működéséhez az összes qubitnek ugyanabban a molekulában kell lennie, és a 7-nél több spinnel rendelkező, kubitként használható molekulák nem tűnnek megvalósíthatónak.
-    </p>
-
-    <cite>
-      <ul>
-        <li>
-          <a href="https://www.nature.com/articles/414883a">
-            Vandersypen, L.M., Steffen, M., Breyta, G., Yannoni, C.S., Sherwood,
-            M.H. and Chuang, I.L., 2001. Experimental realization of Shor's
-            quantum factoring algorithm using nuclear magnetic resonance.
-            <i>Nature</i>, 414(6866), pp.883-887.
-          </a>
-        </li>
-        <li>
-          <a href="www.sciencedaily.com/releases/2001/12/011220081620.htm">
-            IBM Research Division., 2001. IBM's Test-Tube Quantum Computer Makes
-            History; First Demonstration Of Shor's Historic Factoring Algorithm.
-            <i>ScienceDaily.</i>
-          </a>
-        </li>
-        <li>
-          <a href="https://www.npl.washington.edu/av/altvw112.html">
-            Cramer, J.G., Decryption and Quantum Computing: Seven Qubits and
-            Counting.
-          </a>
-        </li>
-      </ul>
-    </cite>
 
     <h3>Problémák az NMR-el</h3>
     2002: Nem is igazán kvantum, mert nincs összefonódás.
