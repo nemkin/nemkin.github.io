@@ -1,5 +1,6 @@
 body {
-  max-width: 500px;
+  max-width: 1024px;
+  font-size: 32px;
   margin: auto;
   text-align: justify;
   text-align-last: left;
@@ -13,7 +14,7 @@ header {
 }
 
 cite {
-  font-size: 11px;
+  font-size: 21px;
 }
 
 a {
