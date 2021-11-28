@@ -1,6 +1,6 @@
 html {
-    margin-left: 20px;
-    margin-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 body {
@@ -32,7 +32,8 @@ figure {
   padding: 0;
 }
 
-img, video {
+img,
+video {
   display: block;
   width: 100%;
   margin-top: 20px;
