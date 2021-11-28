@@ -1,3 +1,3 @@
 # nemkin.github.io
 
-[Kvantum](./kvantum.md)
+- [Az IBM Quantum története a kezdetektől a napjainkig](./kvantum.html)
