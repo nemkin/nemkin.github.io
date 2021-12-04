@@ -1,26 +1,17 @@
 html {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 2em;
+  line-height: 1.5;
+  font-size: 20px;
   overflow-wrap: break-word;
 }
 
 body {
-  max-width: 64em;
-  font-size: 32px;
+  max-width: 30em;
   margin: auto;
-  text-align: justify;
-  text-align-last: left;
-  text-justify: inter-word;
 }
 
 header {
-  margin-top: 30px;
   text-align: center;
-  text-align-last: center;
-}
-
-cite {
-  font-size: 21px;
 }
 
 a {
@@ -29,7 +20,6 @@ a {
 
 figure {
   width: 100%;
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -38,21 +28,15 @@ img,
 video {
   display: block;
   width: 100%;
-  box-sizing: border-box;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 figcaption {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 1em 0;
   text-align: center;
-  text-align-last: center;
 }
 
 ul li {
   list-style-type: circle;
-  margin-bottom: 10px;
+  margin-bottom: 0.5em;
 }
