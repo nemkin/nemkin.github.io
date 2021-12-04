@@ -1,8 +1,13 @@
 html {
+  font-family: "Arial";
+  font-size: 21px;
   margin: 2em;
-  line-height: 1.5;
-  font-size: 20px;
+  line-height: 1.8;
   overflow-wrap: break-word;
+}
+
+header {
+  text-align: center;
 }
 
 body {
@@ -10,25 +15,21 @@ body {
   margin: auto;
 }
 
-header {
-  text-align: center;
-}
-
 a {
   text-decoration: none;
 }
 
-figure {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+li:not(:last-child) {
+  margin-bottom: 1em;
 }
 
-img,
-video {
-  display: block;
-  width: 100%;
-  margin: auto;
+p, li:last-child {
+  margin-bottom: 1.8em;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
 }
 
 figcaption {
@@ -36,7 +37,9 @@ figcaption {
   text-align: center;
 }
 
-ul li {
-  list-style-type: circle;
-  margin-bottom: 0.5em;
+img,
+video {
+  display: block;
+  width: 100%;
+  margin: auto;
 }
