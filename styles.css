@@ -1,15 +1,18 @@
-html {
-  font-family: "Arial";
-  font-size: 24px;
-  margin: 2em;
-  line-height: 1.8;
-  overflow-wrap: break-word;
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+:root {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16pt;
+  line-height: 2em;
+  word-wrap: break-word;
+  hyphens: auto;
   color: #2F3437;
+  background-color: #fafafa;
 }
 
 body {
   max-width: 40em;
-  margin: auto;
+  margin: 3em auto;
 }
 
 a {
