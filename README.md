@@ -1,3 +1,2 @@
-# Nemkin Viktória blogja
+# dev.nemk.in
 
-- [Az IBM Quantum története a kezdetektől a napjainkig](./kvantum.html)
